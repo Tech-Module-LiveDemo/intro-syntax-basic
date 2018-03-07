@@ -1,2 +1,2 @@
 # intro-syntax-basic
-eddited something by Atanaska :)
+edited something by Atanaska :)
