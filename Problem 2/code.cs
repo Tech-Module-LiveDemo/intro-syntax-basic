@@ -7,6 +7,8 @@ public class January06_2017Part2
 {
     public static void Main()
     {
+		
+		// TODO
         List<string> drivers = Console.ReadLine().Split(' ').ToList();
         double[] zones = Console.ReadLine().Split(' ').Select(double.Parse).ToArray();
         List<double> indexes = Console.ReadLine().Split(' ').Select(double.Parse).ToList();
@@ -58,6 +60,8 @@ public class January06_2017Part2
             count++;
         }
     }
+	
+	// TO DRUNK TO COMMENT
     private static void DriverFuel(List<string> drivers, List<double> fuel)
     {
         foreach (var driver in drivers)
