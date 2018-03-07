@@ -62,7 +62,7 @@ public class January06_2017Part2
     }
 	
 	// TO DRUNK TO COMMENT
-    private static void DriverFuel(List<string> drivers, List<double> fuel)
+    private static void AddFuel(List<string> drivers, List<double> fuel)
     {
         foreach (var driver in drivers)
         {
