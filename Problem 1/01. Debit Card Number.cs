@@ -4,7 +4,9 @@ namespace TrainSystem.Models
 {
     public class Trip
     {
-       
+
+        [Required]
+        public string Origin { get; set; }       
 
         [Required]
         public string Origin { get; set; }
