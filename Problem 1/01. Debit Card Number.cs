@@ -19,6 +19,7 @@ namespace TrainSystem.Models
 
         [Required]
         public int Economy { get; set; }
+//Please don't use so many classes ,it's confusing!
 
     }
 }
